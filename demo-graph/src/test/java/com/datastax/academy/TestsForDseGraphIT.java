@@ -7,6 +7,11 @@ import org.junit.Test;
 import com.datastax.driver.dse.DseCluster.Builder;
 import com.datastax.driver.dse.DseSession;
 
+/**
+ * Integration test.
+ *
+ * @author DataStax Evangelist Team
+ */
 public class TestsForDseGraphIT {
     
     /** Working Session. */
@@ -31,7 +36,5 @@ public class TestsForDseGraphIT {
             session.getCluster().close();
         }
     }
-    
-    
 
 }
